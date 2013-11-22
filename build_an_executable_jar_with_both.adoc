@@ -39,21 +39,21 @@ Now run the following command to produce a single executable JAR file containing
 
 [subs="attributes", role="has-copy-button"]
 ....
-$ ./gradlew build
+./gradlew build
 ....
 
 If you are using Gradle, you can run the JAR by typing:
 
 [subs="attributes", role="has-copy-button"]
 ....
-$ java -jar build/libs/{project_id}-0.1.0.jar
+java -jar build/libs/{project_id}-0.1.0.jar
 ....
 
 If you are using Maven, you can run the JAR by typing:
 
 [subs="attributes", role="has-copy-button"]
 ....
-$ java -jar target/{project_id}-0.1.0.jar
+java -jar target/{project_id}-0.1.0.jar
 ....
 
 NOTE: The procedure above will create a runnable JAR. You can also opt to link:/guides/gs/convert-jar-to-war/[build a classic WAR file] instead.
