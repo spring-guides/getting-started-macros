@@ -1,3 +1,4 @@
+ - About 15 minutes
  - A favorite text editor or IDE
  - http://developer.android.com/sdk/index.html[Android SDK]
  - http://maven.apache.org/download.cgi[Maven 3.0] or later
