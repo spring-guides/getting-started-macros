@@ -1,0 +1,10 @@
+:link_attrs:
+
+ifndef::module[:module: service]
+
+== Run the {module}
+Run your {module} at the command line:
+
+----
+./gradlew clean build && java -jar build/libs/{project_id}-0.1.0.jar
+----
