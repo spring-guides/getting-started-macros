@@ -1,0 +1,9 @@
+=== Build and run the client
+
+With an attached device or emulator running, invoke the code and see the results of the REST request:
+
+----
+mvn clean package android:deploy android:run
+----
+
+The command builds the Android app and runs it in the emulator or attached device.

@@ -1,0 +1,3 @@
+==== Create an Android manifest
+
+The http://developer.android.com/guide/topics/manifest/manifest-intro.html[Android Manifest] contains all the information required to run an Android application, and it cannot build without one.

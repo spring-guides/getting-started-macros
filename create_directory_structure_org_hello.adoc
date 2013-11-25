@@ -1,0 +1,13 @@
+==== Create the directory structure
+
+In a project directory of your choosing, create the following subdirectory structure; for example, with the following command on Mac or Linux:
+
+----
+mkdir -p src/main/java/org/hello
+----
+
+    └── src
+        └── main
+            └── java
+                └── org
+                    └── hello
