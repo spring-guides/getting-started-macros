@@ -1,4 +1,4 @@
-=== Create the directory structure
+== Create the directory structure
 
 In a project directory of your choosing, create the following subdirectory structure; for example, with the following command on Mac or Linux:
 
