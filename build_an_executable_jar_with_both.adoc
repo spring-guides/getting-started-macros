@@ -29,6 +29,8 @@ You can see the final version of `build.gradle` https://github.com/spring-guides
 The https://github.com/spring-projects/spring-boot/tree/master/spring-boot-tools/spring-boot-gradle-plugin[Spring Boot gradle plugin] collects all the jars on the classpath and builds a single "über-jar", which makes it more convenient to execute and transport your service.
 It also searches for the `public static void main()` method to flag as a runnable class.
 
+NOTE: If you are using maven, this is when you need to add `spring-boot-maven-plugin` to your https://github.com/spring-guides/{project_id}/blob/master/complete/pom.xml[pom.xml].
+
 Now run the following command to produce a single executable JAR file containing all necessary dependency classes and resources:
 
 [subs="attributes", role="has-copy-button"]
