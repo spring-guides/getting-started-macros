@@ -1,29 +1,28 @@
 :linkattrs:
 
-Now that your `Application` class is ready, you simply instruct the build system to create a single, executable jar containing everything. This makes it easy to ship, version, and deploy the service as an application throughout the development lifecycle, across different environments, and so forth.
-
-With Gradle, you can run the application immediately using:
+Now that your `Application` class is ready, you can run the application immediately using:
 
 [subs="attributes", role="has-copy-button"]
 ....
 ./gradlew bootRun
 ....
 
-An alternative is to build a single executable JAR file that contains all the necessary dependencies, classes, and resources:
+An alternative is to build a single executable JAR file that contains all the necessary dependencies, classes, and resources. This makes it easy to ship, version, and deploy the service as an application throughout the development lifecycle, across different environments, and so forth.
+
 
 [subs="attributes", role="has-copy-button"]
 ....
 ./gradlew build
 ....
 
-Then you can simply run the JAR file:
+Then you can run the JAR file:
 
 [subs="attributes", role="has-copy-button"]
 ....
 java -jar build/libs/{project_id}-0.1.0.jar
 ....
 
-If you are using Maven, you execute `mvn clean package` and run the JAR by typing:
+If you are using Maven, you can run the application using `mvn spring-boot:run`. Or you can build the JAR file with `mvn clean package` and run the JAR by typing:
 
 [subs="attributes", role="has-copy-button"]
 ....
