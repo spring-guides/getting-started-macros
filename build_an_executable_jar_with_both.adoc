@@ -1,14 +1,6 @@
 :linkattrs:
 
-Now that your `Application` class is ready, you can run the application immediately using:
-
-[subs="attributes", role="has-copy-button"]
-....
-./gradlew bootRun
-....
-
-An alternative is to build a single executable JAR file that contains all the necessary dependencies, classes, and resources. This makes it easy to ship, version, and deploy the service as an application throughout the development lifecycle, across different environments, and so forth.
-
+You can build a single executable JAR file that contains all the necessary dependencies, classes, and resources. This makes it easy to ship, version, and deploy the service as an application throughout the development lifecycle, across different environments, and so forth.
 
 [subs="attributes", role="has-copy-button"]
 ....
