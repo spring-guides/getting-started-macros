@@ -9,3 +9,12 @@ If you are using Gradle, you can run your {module} at the command line this way:
 ....
 
 NOTE: If you are using Maven, you can run your {module} by typing +mvn clean package && java -jar target/{project_id}-0.1.0.jar+.
+
+You can alternatively run the app directly from Gradle like this:
+
+[subs="attributes", role="has-copy-button"]
+....
+./gradlew bootRun
+....
+
+NOTE: With mvn, you can run `mvn spring-boot:run`.
