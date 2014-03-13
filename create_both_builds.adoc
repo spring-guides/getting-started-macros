@@ -1,3 +1,6 @@
+:build_gradle: https://github.com/spring-guides/{project_id}/blob/master/initial/build.gradle
+:pom_xml: https://github.com/spring-guides/{project_id}/blob/master/initial/pom.xml
+
 === Create a Gradle build file
-Below is the https://github.com/spring-guides/{project_id}/blob/master/initial/build.gradle[initial Gradle build file]. But you can also use Maven. The pom.xml file is included https://github.com/spring-guides/{project_id}/blob/master/initial/pom.xml[right here]. If you are using link:/guides/gs/sts[Spring Tool Suite (STS)], you can import the guide directly.
+Below is the {build_gradle}[initial Gradle build file]. But you can also use Maven. The pom.xml file is included {pom_xml}[right here]. If you are using link:/guides/gs/sts[Spring Tool Suite (STS)], you can import the guide directly.
 
