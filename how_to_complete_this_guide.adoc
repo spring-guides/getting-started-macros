@@ -1,5 +1,5 @@
-ifndef::initial[:initial: initial]
-ifndef::complete[:complete: complete]
+ifndef::initial[:initial: /initial]
+ifndef::complete[:complete: /complete]
 
 How to complete this guide
 --------------------------
@@ -11,7 +11,7 @@ To **skip the basics**, do the following:
 
  - https://github.com/spring-guides/{project_id}/archive/master.zip[Download] and unzip the source repository for this guide, or clone it using link:/understanding/Git[Git]:
 +git clone https://github.com/spring-guides/{project_id}.git+
- - cd into +{project_id}/{initial}+
+ - cd into +{project_id}{initial}+
  - Jump ahead to <<initial>>.
 
-**When you're finished**, you can check your results against the code in +{project_id}/{complete}+.
+**When you're finished**, you can check your results against the code in +{project_id}{complete}+.
