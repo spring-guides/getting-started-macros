@@ -1,5 +1,5 @@
-:initial: initial
-:complete: complete
+ifndef::initial[:initial: initial]
+ifndef::complete[:complete: complete]
 
 How to complete this guide
 --------------------------
