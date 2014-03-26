@@ -40,13 +40,14 @@ subdirectory structure:
 
 for example, with
 
+[subs="attributes"]
 ```
-mkdir -p appmaster/src/main/resources
-mkdir -p appmaster/src/main/java/hello/appmaster
-mkdir -p container/src/main/resources
-mkdir -p container/src/main/java/hello/container
-mkdir -p client/src/main/resources
-mkdir -p client/src/main/java/hello/client
+mkdir -p {yarn_base_appmaster}/src/main/resources
+mkdir -p {yarn_base_appmaster}/src/main/java/hello/appmaster
+mkdir -p {yarn_base_container}/src/main/resources
+mkdir -p {yarn_base_container}/src/main/java/hello/container
+mkdir -p {yarn_base_client}/src/main/resources
+mkdir -p {yarn_base_client}/src/main/java/hello/client
 mkdir -p src/test/java/hello
 ```
 on *nix systems:
