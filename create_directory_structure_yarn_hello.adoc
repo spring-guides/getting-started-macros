@@ -1,29 +1,38 @@
+:link_attrs:
+
+ifndef::yarn_base_appmaster[:yarn_base_appmaster: appmaster]
+ifndef::yarn_base_container[:yarn_base_container: container]
+ifndef::yarn_base_client[:yarn_base_client: client]
+
 === Create the directory structure
 
 In a project directory of your choosing, create the following
 subdirectory structure:
 
-    ├── appmaster
-    ├   └── src
-    ├       └── main
-    ├           ├── resources
-    ├           └── java
-    ├               └── hello
-    ├                   └── appmaster
-    ├── container
-    ├   └── src
-    ├       └── main
-    ├           ├── resources
-    ├           └── java
-    ├               └── hello
-    ├                   └── container
-    └── client
-        └── src
-            └── main
-                ├── resources
-                └── java
-                    └── hello
-                        └── client
+[subs="attributes"]
+```
+├── {yarn_base_appmaster}
+├   └── src
+├       └── main
+├           ├── resources
+├           └── java
+├               └── hello
+├                   └── appmaster
+├── {yarn_base_container}
+├   └── src
+├       └── main
+├           ├── resources
+├           └── java
+├               └── hello
+├                   └── container
+└── {yarn_base_client}
+    └── src
+        └── main
+            ├── resources
+            └── java
+                └── hello
+                    └── client
+```
 
 for example, with
 
