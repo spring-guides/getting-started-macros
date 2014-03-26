@@ -1,0 +1,39 @@
+=== Create the directory structure
+
+In a project directory of your choosing, create the following
+subdirectory structure:
+
+    ├── appmaster
+    ├   └── src
+    ├       └── main
+    ├           ├── resources
+    ├           └── java
+    ├               └── hello
+    ├                   └── appmaster
+    ├── container
+    ├   └── src
+    ├       └── main
+    ├           ├── resources
+    ├           └── java
+    ├               └── hello
+    ├                   └── container
+    └── client
+        └── src
+            └── main
+                ├── resources
+                └── java
+                    └── hello
+                        └── client
+
+for example, with
+
+```
+mkdir -p appmaster/src/main/resources
+mkdir -p appmaster/src/main/java/hello/appmaster
+mkdir -p container/src/main/resources
+mkdir -p container/src/main/java/hello/container
+mkdir -p client/src/main/resources
+mkdir -p client/src/main/java/hello/client
+```
+on *nix systems:
+
