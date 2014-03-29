@@ -4,5 +4,5 @@ ifndef::build_gradle[:build_gradle: https://github.com/spring-guides/{project_id
 ifndef::pom_xml[:pom_xml: https://github.com/spring-guides/{project_id}/blob/master/initial/pom.xml]
 
 === Create a Gradle build file
-Below is the {build_gradle}[initial Gradle build file]. But you can also use Maven. The pom.xml file is included {pom_xml}[right here]. If you are using link:/guides/gs/sts[Spring Tool Suite (STS)], you can import the guide directly.
+Below is the +{build_gradle}[initial Gradle build file]+. But you can also use Maven. The pom.xml file is included +{pom_xml}[right here]+. If you are using link:/guides/gs/sts[Spring Tool Suite (STS)], you can import the guide directly.
 
