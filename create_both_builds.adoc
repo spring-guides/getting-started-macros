@@ -1,9 +1,9 @@
 :linkattrs:
 
-ifndef::build_gradle[]
+ifndef::build_gradle[subs="attributes"]
 :build_gradle: https://github.com/spring-guides/{project_id}/blob/master/initial/build.gradle
 endif::build_gradle[]
-ifndef::pom_xml[]
+ifndef::pom_xml[subs="attributes"]
 :pom_xml: https://github.com/spring-guides/{project_id}/blob/master/initial/pom.xml
 endif:pom_xml[]
 
