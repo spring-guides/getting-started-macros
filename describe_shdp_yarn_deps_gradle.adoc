@@ -11,7 +11,7 @@ Hadoop distribution dependencies.
 .Apache Hadoop 2.2.x
 ----
 dependencies {
-    compile("org.springframework.data:spring-yarn-boot:2.0.0.RC1")
+    compile("org.springframework.data:spring-yarn-boot:2.0.0.RC2")
 }
 ----
 
@@ -19,7 +19,7 @@ dependencies {
 .Hortonworks Data Platform 2.x
 ----
 dependencies {
-    compile("org.springframework.data:spring-yarn-boot:2.0.0.RC1-hdp20")
+    compile("org.springframework.data:spring-yarn-boot:2.0.0.RC2-hdp20")
 }
 ----
 
@@ -27,7 +27,7 @@ dependencies {
 .Cloudera CDH 5.x
 ----
 dependencies {
-    compile("org.springframework.data:spring-yarn-boot:2.0.0.RC1-cdh5")
+    compile("org.springframework.data:spring-yarn-boot:2.0.0.RC2-cdh5")
 }
 ----
 
