@@ -1,0 +1,45 @@
+== Declaring Hadoop dependencies
+
+Spring for Apache Hadoop provides necessary transitive dependencies via
+the project's Maven POM files. The default is using Apache Hadoop 2.2.x
+but there are additional versions available for other Hadoop distributions
+like Pivotal HD, Hortonworks Data Platform or Cloudera CDH. By specifying
+the desired version, your project will automatically resolve the correct
+Hadoop distribution dependencies.
+
+[source,xml]
+.Apache Hadoop 2.2.x
+----
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-yarn-boot</artifactId>
+        <version>2.0.0.RC2</version>
+    </dependency>
+</dependencies>
+----
+
+[source,xml]
+.Hortonworks Data Platform 2.x
+----
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-yarn-boot</artifactId>
+        <version>2.0.0.RC2-hdp20</version>
+    </dependency>
+</dependencies>
+----
+
+[source,xml]
+.Cloudera CDH 5.x
+----
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-yarn-boot</artifactId>
+        <version>2.0.0.RC2-cdh5</version>
+    </dependency>
+</dependencies>
+----
+
