@@ -13,26 +13,26 @@ subdirectory structure:
 [subs="attributes"]
 ```
 ├── {yarn_base_appmaster}
-├   └── src
-├       └── main
-├           ├── resources
-├           └── java
-├               └── hello
-├                   └── appmaster
+│   └── src
+│       └── main
+│           ├── resources
+│           └── java
+│               └── hello
+│                   └── appmaster
 ├── {yarn_base_container}
-├   └── src
-├       └── main
-├           ├── resources
-├           └── java
-├               └── hello
-├                   └── container
+│   └── src
+│       └── main
+│           ├── resources
+│           └── java
+│               └── hello
+│                   └── container
 ├── {yarn_base_client}
-├   └── src
-├       └── main
-├           ├── resources
-├           └── java
-├               └── hello
-├                   └── client
+│   └── src
+│       └── main
+│           ├── resources
+│           └── java
+│               └── hello
+│                   └── client
 └── {yarn_base_dist}
 ```
 
