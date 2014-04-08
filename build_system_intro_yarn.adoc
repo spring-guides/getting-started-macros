@@ -1,0 +1,7 @@
+
+:linkattrs:
+
+We also have additional guides having specific instructions using
+build systems with Spring YARN. If you're not familiar with either, refer to
+link:/guides/gs/gradle-yarn[Building Spring YARN Projects with Gradle] or
+link:/guides/gs/maven-yarn[Building Spring YARN Projects with Maven].
