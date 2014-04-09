@@ -36,7 +36,7 @@ subdirectory structure:
 └── {yarn_base_dist}
 ```
 
-for example, with
+for example, on *nix systems, with:
 
 [subs="attributes"]
 ```
@@ -48,5 +48,5 @@ mkdir -p {yarn_base_client}/src/main/resources
 mkdir -p {yarn_base_client}/src/main/java/hello/client
 mkdir -p {yarn_base_dist}
 ```
-on *nix systems:
+
 
