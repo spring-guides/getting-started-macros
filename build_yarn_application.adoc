@@ -7,7 +7,7 @@ ifndef::yarn_base_dist[:yarn_base_dist: dist]
 
 == Build the Application
 
-For gradle simply execute a `clean` and `build` commands.
+For gradle simply execute the `clean` and `build` tasks.
 [source,text]
 ----
 ./gradlew clean build
@@ -19,7 +19,7 @@ To skip existing tests if any:
 ./gradlew clean build -x test
 ----
 
-For maven simply execute a `clean` and `package` commands.
+For maven simply execute the `clean` and `package` goals.
 [source,text]
 ----
 mvn clean package
