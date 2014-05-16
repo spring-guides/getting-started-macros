@@ -1,0 +1,4 @@
+
+:linkattrs:
+
+First you set up a basic build script. You can use any build system you like when building apps with Spring, but the code you need to work with https://maven.apache.org[Maven] is included here. If you're not familiar with Maven, refer to link:/guides/gs/maven[Building Java Projects with Maven].

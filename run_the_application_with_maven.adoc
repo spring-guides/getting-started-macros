@@ -1,0 +1,11 @@
+:link_attrs:
+
+ifndef::module[:module: service]
+
+== Run the {module}
+Run your {module} at the command line:
+
+[subs="attributes", role="has-copy-button"]
+....
+mvn spring-boot:run
+....
