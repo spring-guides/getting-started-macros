@@ -1,0 +1,28 @@
+:link_attrs:
+
+ifndef::yarn_base_dist[:yarn_base_dist: dist]
+
+=== Create the directory structure
+
+In a project directory of your choosing, create the following
+subdirectory structure:
+
+[subs="attributes"]
+```
+└── {yarn_base_dist}
+    └── src
+        └── main
+            ├── resources
+            └── java
+                └── hello
+```
+
+for example, on *nix systems, with:
+
+[subs="attributes"]
+```
+mkdir -p {yarn_base_dist}/src/main/resources
+mkdir -p {yarn_base_dist}/src/main/java/hello
+```
+
+
