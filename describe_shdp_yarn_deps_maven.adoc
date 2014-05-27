@@ -14,19 +14,43 @@ Hadoop distribution dependencies.
     <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-yarn-boot</artifactId>
-        <version>2.0.0.RC2</version>
+        <version>2.0.0.RC4</version>
     </dependency>
 </dependencies>
 ----
 
 [source,xml]
-.Hortonworks Data Platform 2.x
+.Pivotal HD 2.0
 ----
 <dependencies>
     <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-yarn-boot</artifactId>
-        <version>2.0.0.RC2-hdp20</version>
+        <version>2.0.0.RC4-phd20</version>
+    </dependency>
+</dependencies>
+----
+
+[source,xml]
+.Hortonworks Data Platform 2.0
+----
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-yarn-boot</artifactId>
+        <version>2.0.0.RC4-hdp20</version>
+    </dependency>
+</dependencies>
+----
+
+[source,xml]
+.Hortonworks Data Platform 2.1
+----
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-yarn-boot</artifactId>
+        <version>2.0.0.RC4-hdp21</version>
     </dependency>
 </dependencies>
 ----
@@ -38,7 +62,7 @@ Hadoop distribution dependencies.
     <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-yarn-boot</artifactId>
-        <version>2.0.0.RC2-cdh5</version>
+        <version>2.0.0.RC4-cdh5</version>
     </dependency>
 </dependencies>
 ----
