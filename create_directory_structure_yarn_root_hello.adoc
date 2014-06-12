@@ -1,0 +1,21 @@
+=== Create the directory structure
+
+In a project directory of your choosing, create the following
+directory structure:
+
+```
+└── src
+    └── main
+        ├── resources
+        └── java
+            └── hello
+```
+
+for example, on *nix systems, with:
+
+```
+mkdir -p src/main/resources
+mkdir -p src/main/java/hello
+```
+
+
