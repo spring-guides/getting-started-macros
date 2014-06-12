@@ -1,0 +1,37 @@
+:link_attrs:
+
+ifndef::yarn_base_dist[:yarn_base_dist: dist]
+
+== Build the Application
+
+For gradle simply execute the `clean` and `build` tasks.
+[source,text]
+----
+./gradlew clean build
+----
+
+To skip existing tests if any:
+[source,text]
+----
+./gradlew clean build -x test
+----
+
+For maven simply execute the `clean` and `package` goals.
+[source,text]
+----
+mvn clean package
+----
+
+To skip existing tests if any:
+[source,text]
+----
+mvn clean package -DskipTests=true
+----
+
+Below listing shows files after a succesfull gradle build.
+
+[subs="attributes"]
+----
+target/{yarn_base_dist}-0.1.0.jar
+----
+
