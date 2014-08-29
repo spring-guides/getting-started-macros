@@ -1,0 +1,7 @@
+[.reveal-sts]
+== Build with Spring Tool Suite
+
+[.use-sts]
+== Build with Spring Tool Suite
+
+If you have Spring Tool Suite, then you can simply link:/guides/gs/sts/[import this guide directly].

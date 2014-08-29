@@ -1,0 +1,17 @@
+[.reveal-maven]
+== Build with Maven
+
+[.use-maven]
+== Build with Maven
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/build_system_intro_maven.adoc[]
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/create_directory_structure_hello.adoc[]
+
+`pom.xml`
+[source,xml]
+----
+include::initial/pom.xml[]
+----
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/spring-boot-maven-plugin.adoc[]
