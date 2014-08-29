@@ -4,3 +4,18 @@
 [[scratch]]
 [.use-gradle]
 == Build with Gradle
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/build_system_intro.adoc[]
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/create_directory_structure_hello.adoc[]
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/create_both_builds.adoc[]
+
+`build.gradle`
+// AsciiDoc source formatting doesn't support groovy, so using java instead
+[source,java]
+----
+include::initial/build.gradle[]
+----
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/spring-boot-gradle-plugin.adoc[]
