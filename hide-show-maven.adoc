@@ -14,4 +14,6 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 include::initial/pom.xml[]
 ----
 
+NOTE: You might notice a specific version of **maven-compiler-plugin**. This is **NOT** recommended in general. Instead, it's meant to solve an issue with our CI system that defaulted to a very old (pre-Java5) version of this plugin.
+
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/spring-boot-maven-plugin.adoc[]

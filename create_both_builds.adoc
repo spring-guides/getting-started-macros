@@ -1,5 +1,2 @@
 === Create a Gradle build file
-Below is the https://github.com/spring-guides/{project_id}/blob/master/initial/build.gradle[initial Gradle build file]. But you can also use Maven. The pom.xml file is included https://github.com/spring-guides/{project_id}/blob/master/initial/pom.xml[right here]. If you are using link:/guides/gs/sts[Spring Tool Suite (STS)], you can import the guide directly.
-
-NOTE: If you look at `pom.xml`, you'll find it has a specific version of **maven-compiler-plugin**. This is **NOT** recommended in general. Instead, it's meant to solve an issue with our 
-CI system that defaulted to a very old (pre-Java5) version of this plugin.
+Below is the https://github.com/spring-guides/{project_id}/blob/master/initial/build.gradle[initial Gradle build file].
