@@ -1,8 +1,8 @@
 [.reveal-maven]
-=== Build with Maven
+== Build with Maven
 
 [.use-maven]
-=== Build with Maven
+== Build with Maven
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/build_system_intro_maven.adoc[]
 
