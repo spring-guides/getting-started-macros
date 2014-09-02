@@ -1,9 +1,11 @@
+== Building the code
+
 [.reveal-gradle]
-== Build with Gradle
+=== Build with Gradle
 
 [[scratch]]
 [.use-gradle]
-== Build with Gradle
+=== Build with Gradle
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/build_system_intro.adoc[]
 
