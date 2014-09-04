@@ -1,3 +1,4 @@
+[[reveal-gradle]]
 [.reveal-gradle]
 == Build with Gradle
 

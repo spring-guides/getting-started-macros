@@ -1,6 +1,8 @@
+[[reveal-maven]]
 [.reveal-maven]
 == Build with Maven
 
+[[use-maven]]
 [.use-maven]
 == Build with Maven
 

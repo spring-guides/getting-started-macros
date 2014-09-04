@@ -1,6 +1,8 @@
+[[reveal-sts]]
 [.reveal-sts]
 == Build with Spring Tool Suite
 
+[[use-sts]]
 [.use-sts]
 == Build with Spring Tool Suite
 
