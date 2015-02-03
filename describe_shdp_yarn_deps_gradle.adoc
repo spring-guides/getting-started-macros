@@ -1,41 +1,33 @@
 == Declaring Hadoop dependencies
 
 Spring for Apache Hadoop provides necessary transitive dependencies via
-the project's Maven POM files. The default is using Apache Hadoop 2.2.x
+the project's Maven POM files. The default is using Apache Hadoop 2.6.x
 but there are additional versions available for other Hadoop distributions
 like Pivotal HD, Hortonworks Data Platform or Cloudera CDH. By specifying
 the desired version, your project will automatically resolve the correct
 Hadoop distribution dependencies.
 
 [source,groovy]
-.Apache Hadoop 2.2.x
+.Apache Hadoop 2.6.x
 ----
 dependencies {
-    compile("org.springframework.data:spring-yarn-boot:2.0.0.RELEASE")
+    compile("org.springframework.data:spring-yarn-boot:2.1.0.RELEASE")
 }
 ----
 
 [source,groovy]
-.Pivotal HD 2.0
+.Pivotal HD 2.1
 ----
 dependencies {
-    compile("org.springframework.data:spring-yarn-boot:2.0.0.RELEASE-phd20")
+    compile("org.springframework.data:spring-yarn-boot:2.1.0.RELEASE-phd21")
 }
 ----
 
 [source,groovy]
-.Hortonworks Data Platform 2.0
+.Hortonworks Data Platform 2.2
 ----
 dependencies {
-    compile("org.springframework.data:spring-yarn-boot:2.0.0.RELEASE-hdp20")
-}
-----
-
-[source,groovy]
-.Hortonworks Data Platform 2.1
-----
-dependencies {
-    compile("org.springframework.data:spring-yarn-boot:2.0.0.RELEASE-hdp21")
+    compile("org.springframework.data:spring-yarn-boot:2.1.0.RELEASE-hdp22")
 }
 ----
 
@@ -43,7 +35,22 @@ dependencies {
 .Cloudera CDH 5.x
 ----
 dependencies {
-    compile("org.springframework.data:spring-yarn-boot:2.0.0.RELEASE-cdh5")
+    compile("org.springframework.data:spring-yarn-boot:2.1.0.RELEASE-cdh5")
 }
 ----
 
+[source,groovy]
+.Apache Hadoop 2.4.x
+----
+dependencies {
+    compile("org.springframework.data:spring-yarn-boot:2.1.0.RELEASE-hadoop24")
+}
+----
+
+[source,groovy]
+.Apache Hadoop 2.5.x
+----
+dependencies {
+    compile("org.springframework.data:spring-yarn-boot:2.1.0.RELEASE-hadoop25")
+}
+----
