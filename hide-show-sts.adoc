@@ -1,9 +1,10 @@
 [[reveal-sts]]
 [.reveal-sts]
-== Build with Spring Tool Suite
+== Build with your IDE
 
 [[use-sts]]
 [.use-sts]
-== Build with Spring Tool Suite
+== Build with your IDE
 
-If you have Spring Tool Suite, then you can simply link:/guides/gs/sts/[import this guide directly].
+* Read how to import this guide straight into link:/guides/gs/sts/[Spring Tool Suite].
+* Read how to work with this guide in link:/guides/gs/intellij-idea[IntelliJ IDEA].
