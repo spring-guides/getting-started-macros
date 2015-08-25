@@ -1,0 +1,3 @@
+
+[small]#Want to write a new guide or contribute to an existing one? Check out our https://github.com/spring-guides/getting-started-guides/wiki[contribution guidelines].#
+
