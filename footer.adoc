@@ -1,3 +1,5 @@
 
 Want to write a new guide or contribute to an existing one? Check out our https://github.com/spring-guides/getting-started-guides/wiki[contribution guidelines].
 
+IMPORTANT: All guides are released with an ASLv2 license for the code, and an http://creativecommons.org/licenses/by-nd/3.0/[Attribution, NoDerivatives creative commons license] for the writing.
+
