@@ -1,26 +1,16 @@
 :linkattrs:
 
-If you are using Gradle, you can run the application using `./gradlew bootRun`. 
+You can run the application from the command line with Gradle or Maven. Or you can build a single executable JAR file that contains all the necessary dependencies, classes, and resources, and run that. This makes it easy to ship, version, and deploy the service as an application throughout the development lifecycle, across different environments, and so forth.
 
-You can build a single executable JAR file that contains all the necessary dependencies, classes, and resources. This makes it easy to ship, version, and deploy the service as an application throughout the development lifecycle, across different environments, and so forth.
+If you are using Gradle, you can run the application using `./gradlew bootRun`.  Or you can build the JAR file using `./gradlew build`.
 
-[subs="attributes", role="has-copy-button"]
-....
-./gradlew build
-....
+If you are using Maven, you can run the application using `./mvnw spring-boot:run`. Or you can build the JAR file with `./mvnw clean package`.
 
 Then you can run the JAR file:
 
 [subs="attributes", role="has-copy-button"]
 ....
 java -jar build/libs/{project_id}-0.1.0.jar
-....
-
-If you are using Maven, you can run the application using `mvn spring-boot:run`. Or you can build the JAR file with `mvn clean package` and run the JAR by typing:
-
-[subs="attributes", role="has-copy-button"]
-....
-java -jar target/{project_id}-0.1.0.jar
 ....
 
 NOTE: The procedure above will create a runnable JAR. You can also opt to link:/guides/gs/convert-jar-to-war/[build a classic WAR file] instead.
