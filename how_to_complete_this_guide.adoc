@@ -3,7 +3,7 @@ ifndef::complete[:complete: /complete]
 
 How to complete this guide
 --------------------------
-Like most Spring link:/guides[Getting Started guides], you can start from scratch and complete each step, or you can bypass basic setup steps that are already familiar to you. Either way, you end up with working code.
+Like most Spring link:/guides[Getting Started guides], you can start from scratch and complete each step or you can bypass basic setup steps that are already familiar to you. Either way, you end up with working code.
 
 To **start from scratch**, move on to <<scratch>>.
 
@@ -14,4 +14,4 @@ To **skip the basics**, do the following:
  - cd into `{project_id}{initial}`
  - Jump ahead to <<initial>>.
 
-**When you're finished**, you can check your results against the code in `{project_id}{complete}`.
+**When you finish**, you can check your results against the code in `{project_id}{complete}`.
