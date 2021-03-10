@@ -7,7 +7,7 @@ settings, other beans, and various property settings. For example, if `spring-we
 on the classpath, this annotation flags the application as a web application and activates
 key behaviors, such as setting up a `DispatcherServlet`.
 - `@ComponentScan`: Tells Spring to look for other components, configurations, and
-services in the `com/example` package, letting it find the controllers.
+services in the `com/example/restservice` package, letting it find the controllers.
 
 The `main()` method uses Spring Boot's `SpringApplication.run()` method to launch an
 application. Did you notice that there was not a single line of XML? There is no `web.xml`
