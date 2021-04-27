@@ -1,2 +1,2 @@
 === Create a Gradle build file
-Below is the https://github.com/spring-guides/{project_id}/blob/master/initial/build.gradle[initial Gradle build file].
+Below is the https://github.com/spring-guides/{project_id}/blob/main/initial/build.gradle[initial Gradle build file].

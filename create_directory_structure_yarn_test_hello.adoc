@@ -1,6 +1,6 @@
 :link_attrs:
 
-ifndef::yarn_base_appmaster[:yarn_base_appmaster: appmaster]
+ifndef::yarn_base_appmain[:yarn_base_appmain: appmain]
 ifndef::yarn_base_container[:yarn_base_container: container]
 ifndef::yarn_base_client[:yarn_base_client: client]
 ifndef::yarn_base_dist[:yarn_base_dist: dist]
@@ -12,13 +12,13 @@ subdirectory structure:
 
 [subs="attributes"]
 ```
-├── {yarn_base_appmaster}
+├── {yarn_base_appmain}
 │   └── src
 │       └── main
 │           ├── resources
 │           └── java
 │               └── hello
-│                   └── appmaster
+│                   └── appmain
 ├── {yarn_base_container}
 │   └── src
 │       └── main
@@ -44,8 +44,8 @@ for example, with
 
 [subs="attributes"]
 ```
-mkdir -p {yarn_base_appmaster}/src/main/resources
-mkdir -p {yarn_base_appmaster}/src/main/java/hello/appmaster
+mkdir -p {yarn_base_appmain}/src/main/resources
+mkdir -p {yarn_base_appmain}/src/main/java/hello/appmain
 mkdir -p {yarn_base_container}/src/main/resources
 mkdir -p {yarn_base_container}/src/main/java/hello/container
 mkdir -p {yarn_base_client}/src/main/resources

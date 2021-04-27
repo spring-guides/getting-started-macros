@@ -1,6 +1,6 @@
 :link_attrs:
 
-ifndef::yarn_base_appmaster[:yarn_base_appmaster: appmaster]
+ifndef::yarn_base_appmain[:yarn_base_appmain: appmain]
 ifndef::yarn_base_container[:yarn_base_container: container]
 ifndef::yarn_base_client[:yarn_base_client: client]
 ifndef::yarn_base_dist[:yarn_base_dist: dist]
@@ -36,7 +36,7 @@ Below listing shows files after a succesfull gradle build.
 [subs="attributes"]
 ----
 {yarn_base_dist}/target/{yarn_base_dist}/{yarn_base_client}-0.1.0.jar
-{yarn_base_dist}/target/{yarn_base_dist}/{yarn_base_appmaster}-0.1.0.jar
+{yarn_base_dist}/target/{yarn_base_dist}/{yarn_base_appmain}-0.1.0.jar
 {yarn_base_dist}/target/{yarn_base_dist}/{yarn_base_container}-0.1.0.jar
 ----
 

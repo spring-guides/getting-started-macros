@@ -6,14 +6,14 @@
 [.use-maven]
 == Build with Maven
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/build_system_intro_maven.adoc[]
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/build_system_intro_maven.adoc[]
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/create_directory_structure_hello.adoc[]
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/create_directory_structure_hello.adoc[]
 
 `pom.xml`
 [source,xml]
 ----
-include::https://raw.githubusercontent.com/spring-guides/{project_id}/master/initial/pom.xml[]
+include::https://raw.githubusercontent.com/spring-guides/{project_id}/main/initial/pom.xml[]
 ----
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/spring-boot-maven-plugin.adoc[]
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/main/spring-boot-maven-plugin.adoc[]

@@ -9,7 +9,7 @@ To **start from scratch**, move on to <<scratch>>.
 
 To **skip the basics**, do the following:
 
- - https://github.com/spring-guides/{project_id}/archive/master.zip[Download] and unzip the source repository for this guide, or clone it using link:/understanding/Git[Git]:
+ - https://github.com/spring-guides/{project_id}/archive/main.zip[Download] and unzip the source repository for this guide, or clone it using link:/understanding/Git[Git]:
 `git clone https://github.com/spring-guides/{project_id}.git`
  - cd into `{project_id}{initial}`
  - Jump ahead to <<initial>>.
