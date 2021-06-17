@@ -4,8 +4,8 @@ ifndef::java_version[:java_version: 1.8]
 
 * About 15 minutes
 * A favorite text editor or IDE
-* http://www.oracle.com/technetwork/java/javase/downloads/index.html[JDK {java_version}] or later
-* http://www.gradle.org/downloads[Gradle 4+] or http://maven.apache.org/download.cgi[Maven 3.2+]
+* https://www.oracle.com/technetwork/java/javase/downloads/index.html[JDK {java_version}] or later
+* https://www.gradle.org/downloads[Gradle 4+] or https://maven.apache.org/download.cgi[Maven 3.2+]
 * You can also import the code straight into your IDE:
 ** link:/guides/gs/sts[Spring Tool Suite (STS)]
 ** link:/guides/gs/intellij-idea/[IntelliJ IDEA]
