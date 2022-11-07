@@ -9,3 +9,5 @@ ifndef::java_version[:java_version: 1.8]
 * You can also import the code straight into your IDE:
 ** link:/guides/gs/sts[Spring Tool Suite (STS)]
 ** link:/guides/gs/intellij-idea/[IntelliJ IDEA]
+** link:/guides/gs/guides-with-vscode/[VSCode]
+
