@@ -4,6 +4,6 @@ ifndef::java_version[:java_version: 17]
 
  - About 15 minutes
  - A favorite text editor or IDE
- - https://www.oracle.com/java/technologies/downloads/#java{java_version}[Java {java_version}] or later
+ - https://www.oracle.com/java/technologies/downloads/[Java {java_version}] or later
  - https://maven.apache.org/download.cgi[Maven 3.5+]
  - You can also import the code from this guide as well as view the web page directly into link:/guides/gs/sts[Spring Tool Suite (STS)] and work your way through it from there.
