@@ -1,4 +1,4 @@
-name: CI Build
+name: CI Build Initial Complete Maven Gradle
 
 on:
   workflow_call:
