@@ -72,26 +72,26 @@ endif::[]
 In this section, we will describe four different ways to run this guide:
 
 1. https://docs.spring.io/spring-boot/docs/current/reference/html/using.html#using.build-systems[Building and executing a JAR file]
-2. https://docs.spring.io/spring-boot/docs/current/reference/html/container-images.html#container-images.buildpacks[Building and executing a Docker container, using Cloud Native Buildpacks^]
+2. https://docs.spring.io/spring-boot/docs/current/reference/html/container-images.html#container-images.buildpacks[Building and executing a Docker container using Cloud Native Buildpacks^]
 3. https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.developing-your-first-application.native-build-tools[Building and executing a native image^]
-4. https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.developing-your-first-application.buildpacks[Building and executing a native image container, using Cloud Native Buildpacks^]
+4. https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.developing-your-first-application.buildpacks[Building and executing a native image container using Cloud Native Buildpacks^]
 
 Regardless of how you choose to execute the application, the output should be the same.
 
 To run the application, you can package the application as an executable jar.
-The command `{jar_build_command}` will compile the application to an executable jar.
-You can then run the jar with the command `{jar_run_command}`
+The `{jar_build_command}` command compiles the application to an executable jar.
+You can then run the jar with the `{jar_run_command}` command.
 
 Alternatively, if you have a Docker environment available, you could create a Docker image directly from your Maven or Gradle plugin, using buildpacks.
 With https://docs.spring.io/spring-boot/docs/current/reference/html/container-images.html#container-images.buildpacks[Cloud Native Buildpacks^], you can create Docker compatible images that you can run anywhere.
 Spring Boot includes buildpack support directly for both Maven and Gradle.
 This means you can type a single command and quickly get a sensible image into a locally running Docker daemon.
-To create a Docker image using Cloud Native Buildpacks, run the command `{image_build_command}`.
-With a Docker environment enabled, you can execute the application with the command `{image_run_command}`
+To create a Docker image using Cloud Native Buildpacks, run the `{image_build_command}` command.
+With a Docker environment enabled, you can run the application with the `{image_run_command}` command.
 
 ifdef::network_container[]
 NOTE: The `--network` flag tells Docker to attach our guide container to the existing network that our external container is using.
-More information about this can be found in the https://docs.docker.com/network/#container-networks[Docker documentation^].
+You can find more information in the https://docs.docker.com/network/#container-networks[Docker documentation^].
 endif::[]
 
 === Native Image Support
@@ -110,7 +110,7 @@ ifdef::custom_hint_include_file[]
 include::{custom_hint_include_file}
 endif::[]
 
-You can run the command `{native_build_command}` to generate a native image. When the build completes, you will be able to run the code with a near instantaneous start up time by executing the command `{native_run_command}`.
+You can then run the `{native_build_command}` command to generate a native image. When the build completes, you will be able to run the code with a near-instantaneous start up time by executing the `{native_run_command}` command.
 
 ifeval::["{build_system}" == "maven"]
 To create https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.developing-your-first-application.buildpacks.maven[native image container using Maven] you should ensure that your `pom.xml` file uses the `spring-boot-starter-parent` and the `org.graalvm.buildtools:native-maven-plugin`.  This plugin should be located in the `<build> <plugins>` section:
@@ -122,6 +122,6 @@ To create https://docs.spring.io/spring-boot/docs/current/reference/html/native-
 ----
 endif::[]
 
-You can also create a https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.developing-your-first-application.buildpacks[Native Image using Buildpacks^]. You can generate a native image by running the command `{native_image_build_command}`. Once the build completes, you can start your application with the command `{native_image_run_command}`
+You can also create a https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.developing-your-first-application.buildpacks[Native Image using Buildpacks^]. You can generate a native image by running the `{native_image_build_command}` command. Once the build completes, you can start your application with the `{native_image_run_command}` command.
 
 
