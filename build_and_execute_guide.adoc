@@ -5,7 +5,7 @@
 
 // optional variables:
 // network_container - if the generated Docker container needs to run on the same network as an external dependency, this is the name of that container dependency
-// custom_hint_include_file - if the native compilation section needs additional description in the form of a custom hint, this is the file that should be rendered as additional content
+// omit_native_build - set if the native compilation section is not to be rendered
 
 ifeval::["{build_system}" == "gradle"]
 
@@ -69,14 +69,16 @@ endif::[]
 
 == Building the Application
 
-In this section, we will describe four different ways to run this guide:
+This section describes different ways to run this guide:
 
 1. https://docs.spring.io/spring-boot/docs/current/reference/html/using.html#using.build-systems[Building and executing a JAR file]
 2. https://docs.spring.io/spring-boot/docs/current/reference/html/container-images.html#container-images.buildpacks[Building and executing a Docker container using Cloud Native Buildpacks^]
+ifndef::omit_native_build[]
 3. https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.developing-your-first-application.native-build-tools[Building and executing a native image^]
 4. https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.developing-your-first-application.buildpacks[Building and executing a native image container using Cloud Native Buildpacks^]
+endif::[]
 
-Regardless of how you choose to execute the application, the output should be the same.
+Regardless of how you choose to run the application, the output should be the same.
 
 To run the application, you can package the application as an executable jar.
 The `{jar_build_command}` command compiles the application to an executable jar.
@@ -94,6 +96,7 @@ NOTE: The `--network` flag tells Docker to attach our guide container to the exi
 You can find more information in the https://docs.docker.com/network/#container-networks[Docker documentation^].
 endif::[]
 
+ifndef::omit_native_build[]
 === Native Image Support
 
 Spring Boot also supports https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.introducing-graalvm-native-images[compilation to a native image^], provided you have a GraalVM distribution on your machine.
@@ -104,10 +107,6 @@ plugins {
 	id 'org.graalvm.buildtools.native' version '0.9.28'
 ...
 ----
-endif::[]
-
-ifdef::custom_hint_include_file[]
-include::{custom_hint_include_file}
 endif::[]
 
 You can then run the `{native_build_command}` command to generate a native image. When the build completes, you will be able to run the code with a near-instantaneous start up time by executing the `{native_run_command}` command.
@@ -124,4 +123,5 @@ endif::[]
 
 You can also create a https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.developing-your-first-application.buildpacks[Native Image using Buildpacks^]. You can generate a native image by running the `{native_image_build_command}` command. Once the build completes, you can start your application with the `{native_image_run_command}` command.
 
-
+endif::[]
+//end omit_native_build
