@@ -1,4 +1,3 @@
-Before you can build your messaging application, you need to set up a server to handle receiving and sending messages.
 This guide assumes that you use https://docs.spring.io/spring-boot/reference/features/dev-services.html#features.dev-services.docker-compose[Spring Boot Docker Compose support^].
 A prerequisite of this approach is that your development machine has a Docker environment, such as https://www.docker.com/products/docker-desktop/[Docker Desktop^], available.
 Add a dependency `spring-boot-docker-compose` that does the following:
