@@ -2,10 +2,10 @@ This guide assumes that you use https://docs.spring.io/spring-boot/reference/fea
 A prerequisite of this approach is that your development machine has a Docker environment, such as https://www.docker.com/products/docker-desktop/[Docker Desktop^], available.
 Add a dependency `spring-boot-docker-compose` that does the following:
 
-* Search for a compose.yml and other common compose filenames in your working directory
-* Call Docker compose up with the discovered compose.yml
+* Search for a `compose.yml` and other common compose filenames in your working directory
+* Call `docker compose up` with the discovered `compose.yml`
 * Create service connection beans for each supported container
-* Call Docker compose stop when the application is shutdown
+* Call `docker compose stop` when the application is shutdown
 
 To use Docker Compose support, you need only follow this guide.
 Based on the dependencies you pull in, Spring Boot finds the correct `compose.yml` file and start your Docker container when you run your application.
