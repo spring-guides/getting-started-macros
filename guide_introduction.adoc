@@ -16,4 +16,4 @@ To **see the end result in your local environment**, you can do one of the follo
 - https://github.com/spring-guides/{project_id}/archive/main.zip[Download^] and unzip the source repository for this guide
 - Clone the repository using Git:
 `git clone https://github.com/spring-guides/{project_id}.git`
-- Fork the repository which let you request changes to this guide through submission of a pull request
+- Fork the repository which lets you request changes to this guide through submission of a pull request
