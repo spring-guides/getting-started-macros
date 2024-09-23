@@ -20,4 +20,4 @@ java -jar target/{project_id}-0.1.0.jar
 ----
 ====
 
-NOTE: The steps described here create a runnable JAR. You can also link:/guides/gs/convert-jar-to-war/[build a classic WAR file].
+
