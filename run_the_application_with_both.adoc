@@ -5,10 +5,10 @@ If you are using Gradle, you can run your {module} at the command line this way:
 
 [subs="attributes", role="has-copy-button"]
 ....
-./gradlew clean build && java -jar build/libs/{project_id}-0.1.0.jar
+./gradlew clean build && java -jar build/libs/{project_id}-0.0.1-SNAPSHOT.jar
 ....
 
-NOTE: If you are using Maven, you can run your {module} by typing +mvn clean package && java -jar target/{project_id}-0.1.0.jar+.
+NOTE: If you are using Maven, you can run your {module} by typing +mvn clean package && java -jar target/{project_id}-0.0.1-SNAPSHOT.jar+.
 
 You can alternatively run the app directly from Gradle like this:
 

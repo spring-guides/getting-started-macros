@@ -7,5 +7,5 @@ Run your {module} at the command line:
 
 [subs="attributes", role="has-copy-button"]
 ....
-./gradlew clean build && java -jar build/libs/{project_id}-0.1.0.jar
+./gradlew clean build && java -jar build/libs/{project_id}-0.0.1-SNAPSHOT.jar
 ....
