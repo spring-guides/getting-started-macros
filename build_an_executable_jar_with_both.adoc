@@ -7,7 +7,7 @@ If you use Gradle, you can run the application by using `./gradlew bootRun`. Alt
 ====
 [subs="attributes", role="has-copy-button"]
 ----
-java -jar build/libs/{project_id}-0.1.0.jar
+java -jar build/libs/{project_id}-0.0.1-SNAPSHOT.jar
 ----
 ====
 
@@ -16,6 +16,6 @@ If you use Maven, you can run the application by using `./mvnw spring-boot:run`.
 ====
 [subs="attributes", role="has-copy-button"]
 ----
-java -jar target/{project_id}-0.1.0.jar
+java -jar target/{project_id}-0.0.1-SNAPSHOT.jar
 ----
 ====
