@@ -104,9 +104,11 @@ ifeval::["{build_system}" == "gradle"]
 To create a https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.developing-your-first-application.native-build-tools.gradle[native image with Gradle^] using Native Build Tools, first make sure that your Gradle build contains a `plugins` block that includes `org.graalvm.buildtools.native`.
 ----
 plugins {
-	id 'org.graalvm.buildtools.native' version '0.9.28'
+	id 'org.graalvm.buildtools.native' version '<version>'
 ...
 ----
+
+NOTE: Review https://docs.spring.io/spring-boot/system-requirements.html#getting-started.system-requirements.graal[the documentation] to know the version of the plugin you should use.
 endif::[]
 
 You can then run the `{native_build_command}` command to generate a native image. When the build completes, you will be able to run the code with a near-instantaneous start up time by executing the `{native_run_command}` command.
